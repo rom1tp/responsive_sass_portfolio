@@ -3,6 +3,7 @@ $secondary-color: #eece1a;
 // $secondary-color: red;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
+$portrait: url(../img/portrait.jpg);
 $background-opacity: 0.7;
 
 @mixin easeOut {
@@ -17,7 +18,7 @@ $background-opacity: 0.7;
       background-size: cover;
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         right: 0;
